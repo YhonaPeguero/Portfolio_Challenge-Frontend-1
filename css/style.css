@@ -35,11 +35,11 @@
 
 .menu {
   display: flex;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .menu li {
-  margin: 0 1vw;
+  margin: 12px;
 }
 
 .menu li:last-child {
