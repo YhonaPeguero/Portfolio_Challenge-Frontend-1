@@ -15,7 +15,7 @@
 4. Proyectos
 5. Correo
 
-# Tecnologias usadas 🛠️:
+# Tecnologias usadas 🛠️
 ***
 
 1. Html5
