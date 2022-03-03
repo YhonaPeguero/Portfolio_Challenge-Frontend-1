@@ -48,7 +48,6 @@
 
 .menu li:hover {
   font-weight: bold;
-  font-size: larger;
   color: hsl(300, 84%, 18%);
 }
 
@@ -58,11 +57,28 @@
   align-items: center;
 }
 
+/* Efectos animados de  la presentacion */
 .presentacion {
   display: block;
   width: 40vw;
   font-size: 52px;
-  margin-bottom: 3vh;
+  margin-bottom: 3hv;
+  white-space: nowrap;
+  border-right: 4px solid;
+  animation: typing 2s steps(12), blink 0.2s infinite step-end alternate;
+  overflow: hidden;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  58% {
+    border-color: transparent;
+  }
 }
 
 .intro {
@@ -108,10 +124,26 @@
   margin-left: 5px;
 }
 
+/* estislos para la foto de perfil en la section main */
 .perfil {
   width: 25vw;
   border-radius: 50%;
   margin-left: 3vw;
+  --m: radial-gradient(circle farthest-side at right, #000 99%, #0000) 0 100%/46%
+      92% no-repeat,
+    radial-gradient(circle farthest-side at left, #000 99%, #0000) 100% 0/46%
+      92% no-repeat;
+  -webkit-mask: var(--m);
+  mask: var(--m);
+  filter: grayscale(0.5);
+  transition: 0.3s linear;
+  cursor: pointer;
+}
+
+.perfil:hover {
+  -webkit-mask-position: 7.5% 50%, 92.5% 50%;
+  mask-position: 7.5% 50%, 92.5% 50%;
+  filter: grayscale(0);
 }
 
 .sobreMiContainer {
