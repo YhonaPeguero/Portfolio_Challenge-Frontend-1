@@ -20,6 +20,7 @@
 
 1. Html5
 2. Css3
+3. Javascript
 
 # Agradecimiento
 ***
