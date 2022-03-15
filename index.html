@@ -11,36 +11,37 @@
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@502&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/skills-hobbies.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link rel="icon" type="image/svg" href="images/logo.svg">
-  <script src="script.js" defer></script>
+  <script src="/js/main.js" defer></script>
 </head>
 
 <body class="animate__animated animate__fadeInLeft">
   <!----------------------------------------------------- Header Section ------------------------------------------->
   <header class="header">
+    <img src="images/logo1.png" class="imagen__logo" alt="logo de la pagina">
 
-    <div class="logoName">
+    <nav class="menu">
 
-      <img src="images/logo.svg" class="logoYhona" alt="logoYhona">
-
-      <a href="index.html" class="nombreCompleto">Yhonatan Peguero</a>
-    </div>
-
-    <ul class="menu">
-      <li><a href="#sobre-mi-container">Sobre mi</a></li>
-      <li><a href="#skills-container">Skills</a></li>
-      <li><a href="#hobbies-container">Hobbies</a> </li>
-      <li><a href="#formacion-container">Formación</a></li>
-      <li><a href="#experiencia-container">Proyectos</a></li>
-      <li><a href="#">yhonatanpm01@gmail.com</a></li>
-    </ul>
+      <ul class="menu__lista">
+        <li class="menu__item"><a href="#sobre__mi">Sobre mi</a></li>
+        <li class="menu__item"><a href="#skills__container">Skills</a></li>
+        <li class="menu__item"><a href="#hobbies-container">Hobbies</a> </li>
+        <li class="menu__item"><a href="#formacion-container">Formación</a></li>
+        <li class="menu__item"><a href="#experiencia-container">Proyectos</a></li>
+        <li class="menu__item"><a href="#contacto-container">Contacto</a></li>
+        <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+      </ul>
+    </nav>
   </header>
 
   <!----------------------------------------------------- Main Section ------------------------------------------->
-  <main class="primeraImpresion">
+  <main class="main__section">
     <div>
-      <h1 class="presentacion">Hola,bienvenido a mi web👋</h1>
+      <h1 class="descripcion">Hola,bienvenido a mi web👋</h1>
       <h2 class="intro">Soy estudiante de ingenieria en software y desarrollador web, actualmente estoy participando en
         el programa de <a href="https://www.oracle.com/index.html" target="_blank"><img src="images/oracle.svg"
             alt="oracle" class="oracleImg"></a> ONE en <a href="https://www.aluracursos.com/" class="linksAlura"
@@ -51,31 +52,31 @@
       <ul class="contacto">
 
         <li><a href="https://github.com/YhonaPeguero" target="blank">Github</a>
-          <img src="images/flecha.svg" alt="flecha" class="flechas">
+          <img src="images/flecha.svg" alt="enlace a github" class="flechas">
         </li>
 
         <li><a href="https://www.linkedin.com/in/yhonatan-peguero/" target="blank">LinkedIn</a>
-          <img src="images/flecha.svg" alt="flecha" class="flechas">
+          <img src="images/flecha.svg" alt="enlace a linkedin" class="flechas">
         </li>
 
         <li><a href="https://www.instagram.com/yhonatan_p_/" target="blank">Instagram</a>
-          <img src="images/flecha.svg" alt="flecha" class="flechas">
+          <img src="images/flecha.svg" alt="enlace a instagram" class="flechas">
         </li>
 
         <li><a href="Yhonatan Peguero-CV.pdf" target="blank">Currículo</a>
-          <img src="images/flecha.svg" alt="flecha" class="flechas">
+          <img src="images/flecha.svg" alt="enlace a c.v" class="flechas">
         </li>
       </ul>
     </div>
 
-    <img src="images/perfil.jpg" alt="estrellas" class="perfil">
+    <img src="images/perfil.jpg" alt="foto de perfil" class="perfil">
   </main>
 
 
   <!----------------------------------------------------- About me Section ------------------------------------------->
-  <section id="sobre-mi-container" class="sobreMiContainer">
+  <section class="sobre__mi">
 
-    <h2 class="tituloSobreMi">Sobre mi</h2>
+    <h2 class="titulo__sobre__mi">Sobre mi</h2>
 
     <p class="parrafos">
       Poseo sólidos conocimientos de html, css, javascript y metodologías para desarrollo de software. Mi fuerte se
@@ -85,13 +86,13 @@
       México y otros lugares,actualmente estoy buscando una oportunidad para poner en practica todos mis conocimientos.
     </p>
     </p>
-    <img src="images/firma.svg">
+    <img src="images/firma.svg" alt="foto de firma">
   </section>
 
   <!----------------------------------------------------- SKill Section ------------------------------------------->
-  <section id="skills-container" class="skillsHobbies">
+  <section id="skills__container" class="skillsHobbies">
 
-    <h2 class="skillsTitulo">Skills</h2>
+    <h2 class="skills__titulo">Skills</h2>
 
     <div class="skillsContainer">
 
@@ -123,7 +124,7 @@
     <!----------------------------------------------------- Hobbies Section ------------------------------------------->
     <section id="hobbies-container">
 
-      <h2 class="hobbiesTitulo">Hobbies</h2>
+      <h2 class="hobbies__titulo">Hobbies</h2>
 
       <div class="hobbiesContainer">
 
@@ -153,7 +154,7 @@
   <!----------------------------------------------------- Formation Section ------------------------------------------->
   <section id="formacion-container" class="formacionContainer">
 
-    <h2 class="formacionTitulo">Formación académica</h2>
+    <h2 class="formacion__titulo">Formación académica</h2>
 
     <div class="formacion">
       <div class="cursos">
@@ -177,7 +178,7 @@
 <!----------------------------------------------------- Experience Section ------------------------------------------->
 <section id="experiencia-container" class="experienciaContainer">
 
-  <h2 class="xpTitulo">Experiencia profesional</h2>
+  <h2 class="expeciencia__titulo">Experiencia en proyectos</h2>
 
   <div class="proyectosContainer">
     <div class="proyectos">
@@ -269,13 +270,13 @@
 
     <form action="" class="form">
 
-      <input type="text" id="nombre" placeholder="Nombre" class="nombre">
+      <input type="text" id="nombre" placeholder="Nombre" class="nombre" required>
 
-      <input type="text" id="email" placeholder="E-mail" class="email">
+      <input type="email" id="email" placeholder="E-mail" class="email" required>
 
-      <input type="text" id="asunto" placeholder="Asunto" class="asunto">
+      <input type="text" id="asunto" placeholder="Asunto" class="asunto" required>
 
-      <input type="text" id="mensaje" placeholder="Mensaje" class="mensaje">
+      <input type="text" id="mensaje" placeholder="Mensaje" class="mensaje" required>
 
       <button class="enviarMsj">Enviar mensaje</button>
     </form>

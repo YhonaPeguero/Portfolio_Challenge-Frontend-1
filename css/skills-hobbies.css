@@ -1,0 +1,38 @@
+.skills__titulo,
+.hobbies__titulo,
+.formacion__titulo,
+.expeciencia__titulo {
+  margin-bottom: 5vh;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Section skill and more styles plus */
+
+.skillsContainer,
+.hobbiesContainer {
+  display: flex;
+  margin-bottom: 10vh;
+  justify-content: space-evenly;
+}
+
+.skillHobbie {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 175px;
+  height: 175px;
+  background-color: #353641;
+}
+
+.logos {
+  width: 50px;
+}
+
+.logos:hover {
+  transform: scale(1.5);
+  filter: drop-shadow(2px 4px 1px hsl(210, 83%, 75%));
+  transition: 0.1s all;
+}

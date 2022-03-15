@@ -1,0 +1,42 @@
+.intro {
+  width: 40vw;
+  font-size: 22px;
+  margin-bottom: 3vh;
+}
+
+.oracleImg {
+  width: 125px;
+}
+
+.oracleImg:hover {
+  filter: brightness(120%);
+}
+
+.linksAlura {
+  font-size: larger;
+  color: hsl(214, 77%, 52%);
+}
+
+.linksAlura:hover {
+  color: hsl(214, 82%, 32%);
+}
+.contacto {
+  display: flex;
+  justify-content: start;
+}
+
+.contacto li {
+  margin-right: 2vw;
+  font-size: large;
+  font-weight: normal;
+}
+
+.contacto li:hover {
+  font-weight: bold;
+  color: hsl(300, 84%, 18%);
+}
+
+.flechas {
+  width: 10px;
+  margin-left: 5px;
+}
