@@ -22,7 +22,6 @@ body {
   border-right: 4px solid;
   animation: typing 2.5s steps(8), blink 0.2s infinite step-end alternate;
   overflow: hidden;
-  text-transform: uppercase;
 }
 
 @keyframes typing {
