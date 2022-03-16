@@ -29,6 +29,7 @@
 .menu__lista li:hover {
   font-weight: bold;
   text-decoration: underline;
+  color: #03a9f4;
 }
 
 /* Mobile menu */

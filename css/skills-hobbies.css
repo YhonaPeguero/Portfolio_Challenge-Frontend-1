@@ -10,14 +10,14 @@
 
 /* Section skill and more styles plus */
 
-.skillsContainer,
-.hobbiesContainer {
+.skills__container,
+.hobbies__container {
   display: flex;
   margin-bottom: 10vh;
   justify-content: space-evenly;
 }
 
-.skillHobbie {
+.skill__hobbie {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
