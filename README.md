@@ -1,5 +1,7 @@
 # Portfolio_Challenge-Frontend-1
-![imgPortfolio](https://user-images.githubusercontent.com/76560887/158038526-aa131d0f-41f5-47c3-95b6-e1d909587b8b.png)
+![imgporftolio](https://user-images.githubusercontent.com/76560887/158481913-3ab5b648-4fb6-4acc-bd59-3dad085319bf.png)
+
+
 
 ## Este repositorio fue creado como solución al Challengue Frontend #1 propuesto por el curso de Frontend de Alura Latam.
 
