@@ -145,7 +145,7 @@ body {
 .asunto,
 .mensaje {
   margin-top: 2vh;
-  width: 40vw;
+  width: 30vw;
   height: 7vh;
   background-color: #1d1e26;
   border-radius: 5px;
@@ -176,6 +176,14 @@ input::placeholder {
   bottom: 1vh;
   left: 0.5vw;
   font-size: 16px;
+}
+
+.warnings {
+  width: 200px;
+  text-align: center;
+  margin: auto;
+  color: #b06ab3;
+  padding-top: 20px;
 }
 
 h6 {

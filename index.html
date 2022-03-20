@@ -17,8 +17,9 @@
   <link rel="stylesheet" href="css/experiencia-proyectos.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link rel="icon" type="image/svg" href="images/logo.svg">
-  <link rel="stylesheet" href="css/footer.css" <script src="/js/main.js" defer>
-  </script>
+  <link rel="stylesheet" href="css/footer.css">
+  <script src="/js/main.js" defer></script>
+  <script src="/js/validacion.js" defer></script>
 </head>
 
 <body class="animate__animated animate__fadeInLeft">
@@ -271,19 +272,21 @@
     <h2 class="contacto__titulo">Contacto</h2>
 
     <p>¿Quieres contactarme?</p>
+    <br>
     <p>Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
 
     <form action="" class="form">
 
-      <input type="text" id="nombre" placeholder="Nombre" class="nombre" required>
+      <input type="text" id="nombre" placeholder="Nombre y apellido" class="nombre" maxlength="50" required>
 
-      <input type="email" id="email" placeholder="E-mail" class="email" required>
+      <input type="email" id="email" placeholder="Email.ejemplo@gmail.com" class="email" required>
 
       <input type="text" id="asunto" placeholder="Asunto" class="asunto" required>
 
-      <input type="text" id="mensaje" placeholder="Mensaje" class="mensaje" required>
+      <textarea id="mensaje" placeholder="Mensaje" class="mensaje" minlength="12" maxlength="100" required></textarea>
 
-      <button class="enviar__msj">Enviar mensaje</button>
+      <button type="submit" class="enviar__msj">Enviar mensaje</button>
+      <p class="warnings" id="warnings"></p>
     </form>
   </div>
 </section>
